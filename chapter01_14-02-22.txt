@@ -1,0 +1,19 @@
+Program to an interface/supertype, not an implementation.
+
+take the parts that vary and encapsulate them, 
+so that later you can alter or extend the parts that vary
+without affecting those that don’t.
+
+Favor composition over inheritance.
+
+Strategy Pattern:
+The Strategy Pattern defines a family of algorithms,
+encapsulates each one, and makes them interchangeable. Strategy
+lets the algorithm vary independently from clients that use it.
+
+
+Why use Design Patterns?
+- Increases code maintainability by making it reusable and easy to add new components. 
+- Allows you to communicate with fellow developers easily, 
+  without the need to extensively explain about the implementation and how to use it.
+- Teaches developers to think at design level and not directly to the details of each and every objects and classes.
