@@ -13,6 +13,7 @@ lets the algorithm vary independently from clients that use it.
 
 
 Why use Design Patterns?
+- Someone has already solved it
 - Increases code maintainability by making it reusable and easy to add new components. 
 - Allows you to communicate with fellow developers easily, 
   without the need to extensively explain about the implementation and how to use it.
