@@ -1,0 +1,14 @@
+Observer Pattern: The Observer Pattern defines a one-to-many dependency between objects so that when
+one object changes state, all of its dependents are notified and updated automatically.
+(alternate definition) The Observer Pattern defines a one-to-many relationship between a set of objects.
+When the state of one object changes, all of its dependents are notified.
+
+- The class responsible for notifying about the change in state is called the Subject.
+- The classes waiting for the notification are Observers.
+- One Subject can have many Observers.
+
+Design Principals:
+Strive for loosely coupled designs between objects that interact.
+
+Questions:
+- how to loosely couple the state passed through the update() method of Observer???
